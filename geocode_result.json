@@ -1,0 +1,161 @@
+[
+    {
+        "address_components": [
+            {
+                "long_name": "Mariposa County",
+                "short_name": "Mariposa County",
+                "types": [
+                    "administrative_area_level_2",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "California",
+                "short_name": "CA",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "formatted_address": "Mariposa County, CA, USA",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 37.9041219,
+                    "lng": -119.3072841
+                },
+                "southwest": {
+                    "lat": 37.183108,
+                    "lng": -120.395441
+                }
+            },
+            "location": {
+                "lat": 37.4893626,
+                "lng": -119.9679294
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 37.9041219,
+                    "lng": -119.3072841
+                },
+                "southwest": {
+                    "lat": 37.183108,
+                    "lng": -120.395441
+                }
+            }
+        },
+        "place_id": "ChIJey7XBpaFloARsZQNIKqDzZo",
+        "types": [
+            "administrative_area_level_2",
+            "political"
+        ]
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "California",
+                "short_name": "CA",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "formatted_address": "California, USA",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 42.0095169,
+                    "lng": -114.131211
+                },
+                "southwest": {
+                    "lat": 32.528832,
+                    "lng": -124.482003
+                }
+            },
+            "location": {
+                "lat": 36.778261,
+                "lng": -119.4179324
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 42.0095169,
+                    "lng": -114.131211
+                },
+                "southwest": {
+                    "lat": 32.528832,
+                    "lng": -124.482003
+                }
+            }
+        },
+        "place_id": "ChIJPV4oX_65j4ARVW8IJ6IJUYs",
+        "types": [
+            "administrative_area_level_1",
+            "political"
+        ]
+    },
+    {
+        "address_components": [
+            {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            }
+        ],
+        "formatted_address": "United States",
+        "geometry": {
+            "bounds": {
+                "northeast": {
+                    "lat": 71.5388001,
+                    "lng": -66.885417
+                },
+                "southwest": {
+                    "lat": 18.7763,
+                    "lng": 170.5957
+                }
+            },
+            "location": {
+                "lat": 37.09024,
+                "lng": -95.712891
+            },
+            "location_type": "APPROXIMATE",
+            "viewport": {
+                "northeast": {
+                    "lat": 71.5388001,
+                    "lng": -66.885417
+                },
+                "southwest": {
+                    "lat": 18.7763,
+                    "lng": 170.5957
+                }
+            }
+        },
+        "place_id": "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+        "types": [
+            "country",
+            "political"
+        ]
+    }
+]
