@@ -1,7 +1,8 @@
-# pip install python-dotenv
-# pip install sodapy
-# pip install reverse_geocoder
+# pip install python-dotenv         # NOT IN CONDA
+# pip install sodapy                # NOT IN CONDA
+# pip install reverse_geocoder      # NOT IN CONDA
 
+# Import needed libraries.  Unless noted above, all libraries are available in the baseline conda environment.
 import pandas as pd
 from dotenv import load_dotenv
 from sodapy import Socrata
