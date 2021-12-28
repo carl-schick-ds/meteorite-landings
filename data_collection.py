@@ -84,6 +84,7 @@ def get_country_data(meteorite_data):
 
     for idx, result in enumerate(rg_result):
         result_parsed = {}
+        result_list = []
 
         result_parsed['country_code_2'] = result['cc']
         result_parsed['admin1'] = result['admin1']
@@ -92,8 +93,15 @@ def get_country_data(meteorite_data):
         lookup_cc = result_parsed['country_code_2']
         result_parsed['country_name'] = country_names.loc[lookup_cc]['Country']
         result_parsed['country_code_3'] = country_names.loc[lookup_cc]['Alpha-3 code']
-        
-        map_data.iloc[idx] = list(result_parsed.values())
+
+        # Order correctly for row update.
+        result_list.append(result_parsed['country_name'])
+        result_list.append(result_parsed['country_code_2'])
+        result_list.append(result_parsed['country_code_3'])
+        result_list.append(result_parsed['admin1'])
+        result_list.append(result_parsed['admin2'])
+
+        map_data.iloc[idx] = result_list
 
     print('Added country data to the dataset.') 
     return meteorite_data.join(map_data)
