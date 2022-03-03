@@ -1,4 +1,4 @@
-name: met-land
+name: pj-metlnd
 channels:
   - defaults
 dependencies:
